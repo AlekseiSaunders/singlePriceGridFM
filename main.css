@@ -1,0 +1,140 @@
+:root {
+  --cyan: hsla(179, 62%, 43%, 1);
+  --light-cyan: hsla(178, 48%, 52%, 1);
+  --bright-yellow: hsla(71, 73%, 54%, 1);
+  --light-grey: hsla(204, 43%, 93%, 0.6);
+  --grayish-blue: hsla(218, 22%, 67%, 1);
+  --white: hsla(0deg, 0%, 100%, 1);
+  --blue-grey: hsla(228, 45%, 44%, 1);
+}
+html,
+body {
+  font-size: 16px;
+}
+/* karla-regular - latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('./fonts/karla-v15-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/karla-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* karla-700 - latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('./fonts/karla-v15-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/karla-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 72px;
+  padding-bottom: 62px;
+  width: 375px;
+  margin: auto;
+  background-color: hsla(204deg, 43%, 93%, 1);
+}
+.wrapperShadow {
+  box-shadow: 0px 4px 12px 2px hsla(218, 22%, 67%, 1);
+}
+h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-bottom: 24px;
+  color: var(--cyan);
+}
+h3 {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  padding-bottom: 16px;
+  color: var(--bright-yellow);
+}
+p {
+  font-size: 0.875;
+  font-weight: 400;
+  color: var(--grayish-blue);
+}
+h2 {
+  font-size: 1.125rem;
+  padding-bottom: 18px;
+  font-weight: 700;
+  color: var(--white);
+}
+h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 41px;
+  color: var(--white);
+}
+.cta {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 28px;
+  padding-bottom: 32px;
+  width: 311px;
+  height: 269px;
+  background-color: var(--white);
+  border-radius: 5px 5px 0px 0px;
+}
+.cta p {
+  padding-bottom: 32px;
+}
+.costs {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 28px;
+  padding-bottom: 32px;
+  width: 311px;
+  height: 241px;
+  background-color: var(--cyan);
+  color: hsla(0deg, 0%, 100%, 0.5);
+}
+.costs p {
+  color: var(--light-grey);
+}
+
+.reasoning {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: var(--light-grey);
+  width: 311px;
+  height: 241px;
+  font-size: 0.875rem;
+  background-color: var(--light-cyan);
+}
+.reasoning p {
+  white-space: pre-line;
+  color: var(--light-grey);
+}
+.price {
+  font-size: 2rem;
+  font-weight: 700rem;
+  padding-right: 11px;
+  color: var(--white);
+}
+.buttonLike {
+  padding-left: 102px;
+  padding-right: 102px;
+  padding-top: 15px;
+  padding-bottom: 14px;
+  background-color: var(--bright-yellow);
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+
+  color: var(--white);
+}
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--blue-grey);
+}
