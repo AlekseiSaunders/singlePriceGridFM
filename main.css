@@ -2,9 +2,11 @@
   --cyan: hsla(179, 62%, 43%, 1);
   --light-cyan: hsla(178, 48%, 52%, 1);
   --bright-yellow: hsla(71, 73%, 54%, 1);
+  --bright-yellow-hov: hsla(60, 73%, 54%, 1);
   --light-grey: hsla(204, 43%, 93%, 0.6);
   --grayish-blue: hsla(218, 22%, 67%, 1);
-  --white: hsla(0deg, 0%, 100%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+  --black: hsla(0, 0%, 0%, 1);
   --blue-grey: hsla(228, 45%, 44%, 1);
 }
 html,
@@ -85,6 +87,7 @@ h4 {
 }
 .cta p {
   padding-bottom: 32px;
+  line-height: 1.8;
 }
 .costs {
   padding-left: 24px;
@@ -132,6 +135,11 @@ h4 {
   font-weight: 700;
   border-radius: 5px;
   color: var(--white);
+  box-shadow: 0px 2px 12px 0px hsla(218, 22%, 0%, 0.2);
+}
+.buttonLike:hover {
+  background-color: var(--bright-yellow-hov);
+  color: var(--black);
   box-shadow: 0px 2px 12px 0px hsla(218, 22%, 0%, 0.2);
 }
 .attribution {
