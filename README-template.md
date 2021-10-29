@@ -4,19 +4,21 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Frontend Mentor - Single price grid component solution](#frontend-mentor---single-price-grid-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+      - [Desktop](#desktop)
+      - [Mobile](#mobile)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -28,23 +30,25 @@ Users should be able to:
 - See a hover state on desktop for the Sign Up call-to-action
 
 ### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+#### Desktop
+![](./images/Frontend%20Mentor%20_Single%20Price%20Grid%20Component_Desktop.png)
+#### Mobile
+![](./images/Frontend%20Mentor_Single%20Price%20Grid%20Component_Mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Found at Github](https://github.com/AlekseiSaunders/singlePriceGridFM)
+- Live Site URL: [Hosted at Vercel](https://single-price-grid-fm-git-main-alekseisaunders.vercel.app/)
 
 ## My process
+
+I start with reviewing the design products, in this case a Figma file with desktop and mobile mock-ups. I'm looking first for low-hanging fruit: colors, typeface, general layout. For larger projects, if the design files don't have a Material Design board already, I'd seriously consider creating one for myself. I've found that this front-end work makes the styling easier down the line. Looking at the designs closely enough to create a MD board also gets me looking at some of the smaller detials.
+
+Next I either clone the respository into a project folder, or I create my own git repository. Rename master to main if it hasn't already been done, create a gitignore to remove packages, certain assests, and anything proprietary from the public repo. Put on some relaxing music, and start VS Code.
+
+In VS Code I first create a boilerplate reset.css file (I use a modified version of [Andy Bell's reset](https://piccalil.li/blog/a-modern-css-reset/)). From there I create a main.css and begin creating the Custom Properties I'll need for the page by looking at either the Material Design board, or my notes.
+
+
 
 ### Built with
 
@@ -53,11 +57,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Figma
+- VSCode
 
 ### What I learned
 
@@ -91,21 +92,17 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Josh W. Comeau](https://www.joshwcomeau.com/) - Josh explains aspects of CSS that have really clicked with me and I'm finding his CSS course challenging, but well worth the expense for the insight he brings.
+- [Kevin Powell goes through his CSS process](https://scrimba.com/learn/spacetravel/introduction-co9754ea5b87864fba221a504) - This is a free tutorial on Scrimba, in conjunction with Frontend Mentor that really clicked with me. I liked Kevin's approach to CSS development and hope to adapt my own flow along these lines. I'm now watching more and more of [Kevin's thought process on YouTube](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Aleksei Saunders](https://www.your-site.com)
+- Frontend Mentor - [@AlekseiSaunders](https://www.frontendmentor.io/profile/AlekseiSaunders)
+- LinkedIn - [Aleksei Saunders](https://www.linkedin.com/in/alekseisaunders/)
 
 ## Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
