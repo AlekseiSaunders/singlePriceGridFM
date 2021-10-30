@@ -65,9 +65,12 @@ p {
 }
 h2 {
   font-size: 1.125rem;
-  padding-bottom: 18px;
+  padding-bottom: 10px;
   font-weight: 700;
   color: var(--white);
+}
+.reasoning h2 {
+  padding-bottom: 18px;
 }
 h4 {
   font-size: 1rem;
@@ -75,6 +78,7 @@ h4 {
   padding-bottom: 41px;
   color: var(--white);
 }
+
 .cta {
   padding-left: 24px;
   padding-right: 24px;
@@ -170,10 +174,13 @@ h4 {
     margin-right: auto;
   }
   h1 {
+    padding-top: 12px;
+    padding-bottom: 25px;
     font-size: 1.5rem;
   }
   h2,
   h3 {
+    padding-bottom: 5px;
     font-size: 1.125rem;
   }
   .cta p,
@@ -190,15 +197,20 @@ h4 {
   }
   .costs {
     grid-area: costs;
+    padding-top: 40px;
     padding-left: 40px;
     width: 100%;
     height: 100%;
   }
   .reasoning {
     grid-area: reasoning;
+    padding-top: 40px;
     padding-left: 40px;
     width: 100%;
     height: 100%;
+  }
+  .reasoning h2 {
+    padding-bottom: 10px;
   }
   .buttonLike {
     padding-left: 90px;
